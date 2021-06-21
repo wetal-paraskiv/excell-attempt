@@ -1,0 +1,26 @@
+#table {
+    border: 1px solid grey;
+    margin: 1px;
+}
+
+.index-cell,
+.table-head {
+    background-color: rgb(187, 186, 186);
+}
+
+.table-head,
+.table-row {
+    display: flex;
+    text-align: center;
+}
+
+.index-cell,
+.cell {
+    border: 1px solid grey;
+    width: 80px;
+    height: 23px;
+}
+
+input[type='number'] {
+    width: 100px;
+}
